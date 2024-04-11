@@ -5,7 +5,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int h = sc.nextInt();
         int w = sc.nextInt();
-        int b = w/((h/100)*(h/100));
+        int b =(10000*w)/(h*h);
         System.out.println(b);
         if (b>=25){
             System.out.print("Obesity");
